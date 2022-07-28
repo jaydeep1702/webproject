@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding: 0px;
+}
+
+#nav {
+    background-color: #1f4c87;
+    padding: 4px;
+}
+
+#nav a {
+    color: orange;
+}
+
+#navLogo {
+    margin: 0px 10px;
+}
+
+#errorLog{
+    width: 18%;
+    height: 40px;
+    font-size: 17px;
+    background-color: orangered;
+    margin-right: 50px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+}
+
+#dashboard {
+    margin: 20px 40px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#graphs {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Current_Usage {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Past_Data_Monitoring {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 100%;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 8px 0px rgb(206 206 230);
+    background-color: whitesmoke;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+#cpuUtilization {
+    align-self: center;
+}
+
+#graphs img {
+    width: 400px;
+    height: 200px;
+}
+
+#select_duration {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#select_duration button {
+    width: 150px;
+    background-color: gray;
+    margin: 15px;
+    font-size: 18px;
+    border: none;
+    padding: 5px 15px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    align-content: center;
+}
+
+.alert {
+    display: none;
+    margin: 0px;
+    height: auto;
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid transparent;
+    border-radius: 25.25rem;
+    background-color: red;
+    padding: 5px;
+    width:250px; 
+    font-size: 13px;
+
+    animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-delay: 0s; 
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+        left: 100px;
+        top: 0px;
+    }
+}
